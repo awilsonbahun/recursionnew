@@ -1,19 +1,5 @@
 public class Recursion {
-    public static void main(String[] args) {
-        Recursion r = new Recursion();
-        r.displayString("ggc", 2);
-        r.getMultiChar('a', 1);
-        r.factorial(2);
-        r.getPowerOfTen(2);
-        r.getPowerOfTen(2);
-        r.numberOfGloves(5);
-        r.getNumberOfZerosRecursion(3);
-        r.getNumberOfZerosLoop(4);
-
-        System.out.println(r);
-
-
-    }
+    
 
     public String displayString(String str, int n) {
         if (str == null || n <= 0)
